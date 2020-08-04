@@ -74,6 +74,20 @@ a5.textContent = "About"
 let a6 = navArray[5];
 a6.textContent = "Contact"
 
+// .appendChild()
+
+// let a7 = document.createElement("anchor7");
+// let testimonials = document.createTextNode("Testimonials")
+// a7.appendChild(testimonials);
+// document.nav.appendChild(a7);
+
+// .prepend()
+
+// let a0 = document.createElement("anchor0");
+// let reviews = document.createTextNode("Reviews")
+// a0.prepend(reviews)
+// document.nav.prepend(a0);
+
 //CTA
 
 let title = document.querySelector("h1");
