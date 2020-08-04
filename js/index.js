@@ -76,17 +76,18 @@ a6.textContent = "Contact"
 
 // .appendChild()
 
-// let a7 = document.createElement("anchor7");
-// let testimonials = document.createTextNode("Testimonials")
-// a7.appendChild(testimonials);
-// document.nav.appendChild(a7);
+let lastNavLink = document.createElement("a");
+lastNavLink.textContent = "Testimonials";
+lastNavLink.href = "#";
+let nav = document.querySelector("nav");
+nav.appendChild(lastNavLink);
 
 // .prepend()
 
-// let a0 = document.createElement("anchor0");
-// let reviews = document.createTextNode("Reviews")
-// a0.prepend(reviews)
-// document.nav.prepend(a0);
+let firstNavLink = document.createElement("a");
+firstNavLink.textContent = "Reviews";
+firstNavLink.href = "#";
+nav.prepend(firstNavLink);
 
 //CTA
 
