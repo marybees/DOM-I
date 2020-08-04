@@ -77,7 +77,7 @@ a6.textContent = "Contact"
 //CTA
 
 let title = document.querySelector("h1");
-title.textContent = "DOM IS AWESOME"
+title.innerHTML = "DOM <br> IS <br> AWESOME"
 
 let titleButton = document.querySelector("button");
 titleButton.textContent = "Get Started"
@@ -133,7 +133,7 @@ let sectionTitle6 = sectionTitlesArray[5];
 sectionTitle6.textContent = "Contact"
 
 let sectionParagraph6 = sectionParagraphsArray[5];
-sectionParagraph6.textContent = "123 Way 456 Street Somewhere, USA"
+sectionParagraph6.innerHTML = "123 Way 456 Street<br>Somewhere, USA"
 
 let sectionParagraph7 = sectionParagraphsArray[6];
 sectionParagraph7.textContent = "1 (888) 888-8888"
