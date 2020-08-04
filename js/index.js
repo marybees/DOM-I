@@ -39,14 +39,15 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute("src", siteContent["nav"]["img-src"])
+logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
 //Header
 
 let headerImg = document.getElementById("cta-img");
-headerImg.setAttribute("src", siteContent["cta"]["img-src"])
+headerImg.setAttribute("src", siteContent["cta"]["img-src"]);
 
 //Nav
+
 let navLinks = document.querySelectorAll("a");
 
 Array.from(navLinks).forEach(links => {
@@ -54,21 +55,91 @@ Array.from(navLinks).forEach(links => {
 });
 
 let a1 = document.querySelector("a:nth-of-type(1)");
-a1.textContent = "Product"
+a1.textContent = "Services"
 
 let a2 = document.querySelector("a:nth-of-type(2)");
-a2.textContent = "Vision"
+a2.textContent = "Product"
 
 let a3 = document.querySelector("a:nth-of-type(3)");
-a3.textContent = "Features"
+a3.textContent = "Vision"
 
 let a4 = document.querySelector("a:nth-of-type(4)");
-a4.textContent = "About"
+a4.textContent = "Features"
 
-let a5 = document.querySelector("a:nth-of-type(1)");
-a5.textContent = "Contact"
+let a5 = document.querySelector("a:nth-of-type(5)");
+a5.textContent = "About"
 
-//Middle
+let a6 = document.querySelector("a:nth-of-type(6)");
+a6.textContent = "Contact"
+
+//CTA
+
+let title = document.querySelector("h1");
+title.textContent = "DOM IS AWESOME"
+
+let titleButton = document.querySelector("button");
+titleButton.textContent = "Get Started"
+
+//Main Content
+
+let sectionTitles = document.querySelectorAll("h4");
+
+let sectionTitlesArray = Array.from(sectionTitles);
+
+let sectionParagraphs = document.querySelectorAll("p");
+
+let sectionParagraphsArray = Array.from(sectionParagraphs);
+
+//Top Content
+
+let sectionTitle1 = sectionTitlesArray[0];
+sectionTitle1.textContent = "Features"
+
+let sectionParagraph1 = sectionParagraphsArray[0];
+sectionParagraph1.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let sectionTitle2 = sectionTitlesArray[1];
+sectionTitle2.textContent = "About"
+
+let sectionParagraph2 = sectionParagraphsArray[1];
+sectionParagraph2.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
 let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"])
+
+//Bottom Content
+
+let sectionTitle3 = sectionTitlesArray[2];
+sectionTitle3.textContent = "Services"
+
+let sectionParagraph3 = sectionParagraphsArray[2];
+sectionParagraph3.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let sectionTitle4 = sectionTitlesArray[3];
+sectionTitle4.textContent = "Product"
+
+let sectionParagraph4 = sectionParagraphsArray[3];
+sectionParagraph4.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let sectionTitle5 = sectionTitlesArray[4];
+sectionTitle5.textContent = "Vision"
+
+let sectionParagraph5 = sectionParagraphsArray[4];
+sectionParagraph5.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+let sectionTitle6 = sectionTitlesArray[5];
+sectionTitle6.textContent = "Contact"
+
+let sectionParagraph6 = sectionParagraphsArray[5];
+sectionParagraph6.textContent = "123 Way 456 Street Somewhere, USA"
+
+let sectionParagraph7 = sectionParagraphsArray[6];
+sectionParagraph7.textContent = "1 (888) 888-8888"
+
+let sectionParagraph8 = sectionParagraphsArray[7];
+sectionParagraph8.textContent = "tsales@greatidea.io"
+
+//Footer
+
+let sectionParagraph9 = sectionParagraphsArray[8];
+sectionParagraph9.textContent = "Copyright Great Idea! 2018"
