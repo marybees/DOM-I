@@ -54,22 +54,24 @@ Array.from(navLinks).forEach(links => {
   links.style.color = "green"
 });
 
-let a1 = document.querySelector("a:nth-of-type(1)");
+let navArray = Array.from(navLinks);
+
+let a1 = navArray[0];
 a1.textContent = "Services"
 
-let a2 = document.querySelector("a:nth-of-type(2)");
+let a2 = navArray[1];
 a2.textContent = "Product"
 
-let a3 = document.querySelector("a:nth-of-type(3)");
+let a3 = navArray[2];
 a3.textContent = "Vision"
 
-let a4 = document.querySelector("a:nth-of-type(4)");
+let a4 = navArray[3];
 a4.textContent = "Features"
 
-let a5 = document.querySelector("a:nth-of-type(5)");
+let a5 = navArray[4];
 a5.textContent = "About"
 
-let a6 = document.querySelector("a:nth-of-type(6)");
+let a6 = navArray[5];
 a6.textContent = "Contact"
 
 //CTA
