@@ -81,6 +81,7 @@ lastNavLink.textContent = "Testimonials";
 lastNavLink.href = "#";
 let nav = document.querySelector("nav");
 nav.appendChild(lastNavLink);
+lastNavLink.style.color = "green"
 
 // .prepend()
 
@@ -88,6 +89,7 @@ let firstNavLink = document.createElement("a");
 firstNavLink.textContent = "Reviews";
 firstNavLink.href = "#";
 nav.prepend(firstNavLink);
+firstNavLink.style.color = "green"
 
 //CTA
 
